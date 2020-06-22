@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using CodeMonkeyBlazor.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,5 +10,8 @@ namespace CodeMonkeyBlazor.Data
             : base(options)
         {
         }
+
+        public DbSet<Idea> Ideas { get; set; }
+
     }
 }
