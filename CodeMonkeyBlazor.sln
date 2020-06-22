@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeMonkeyBlazor", "CodeMonkeyBlazor\CodeMonkeyBlazor.csproj", "{F2DA5F9F-A2BF-4A4F-ADBB-F9AAD8D65D4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeMonkeyBlazor", "CodeMonkeyBlazor\CodeMonkeyBlazor.csproj", "{F2DA5F9F-A2BF-4A4F-ADBB-F9AAD8D65D4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeMonkeyBlazor.Admin", "CodeMonkeyBlazor.Admin\CodeMonkeyBlazor.Admin.csproj", "{9DE18629-2C08-431B-8538-4B61C6B0081C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeMonkeyBlazor.Admin", "CodeMonkeyBlazor.Admin\CodeMonkeyBlazor.Admin.csproj", "{9DE18629-2C08-431B-8538-4B61C6B0081C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChartJs.Blazor", "ChartJs.Blazor\ChartJs.Blazor.csproj", "{94374A4E-680F-4327-90E5-A5BA9D066AF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{9DE18629-2C08-431B-8538-4B61C6B0081C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DE18629-2C08-431B-8538-4B61C6B0081C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DE18629-2C08-431B-8538-4B61C6B0081C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94374A4E-680F-4327-90E5-A5BA9D066AF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94374A4E-680F-4327-90E5-A5BA9D066AF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94374A4E-680F-4327-90E5-A5BA9D066AF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94374A4E-680F-4327-90E5-A5BA9D066AF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
