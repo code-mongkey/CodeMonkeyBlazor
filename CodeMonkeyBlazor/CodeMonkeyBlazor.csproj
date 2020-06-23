@@ -17,4 +17,8 @@
     <Folder Include="wwwroot\images\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CodeMonkeyBlazor.Models\CodeMonkeyBlazor.Models.csproj" />
+  </ItemGroup>
+
 </Project>
