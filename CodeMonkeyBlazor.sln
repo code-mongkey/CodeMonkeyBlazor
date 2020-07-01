@@ -11,13 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChartJs.Blazor", "ChartJs.B
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "CodeMonkeyBlazor.SqlServer", "CodeMonkeyBlazor.SqlServer\CodeMonkeyBlazor.SqlServer.sqlproj", "{89B329E4-C33E-4C93-8C07-555844DA9243}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeMonkeyBlazor.Models", "CodeMonkeyBlazor.Models\CodeMonkeyBlazor.Models.csproj", "{4719DC22-9567-4468-AEAA-1D414673382E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeMonkeyBlazor.Models", "CodeMonkeyBlazor.Models\CodeMonkeyBlazor.Models.csproj", "{4719DC22-9567-4468-AEAA-1D414673382E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeMonkeyBlazor.Models.Test", "CodeMonkeyBlazor.Models.Test\CodeMonkeyBlazor.Models.Test.csproj", "{0802B981-7779-445E-86EB-2908109261EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeMonkeyBlazor.Apis", "CodeMonkeyBlazor.Apis\CodeMonkeyBlazor.Apis.csproj", "{BB98C3B6-0ACA-4F68-B366-9EE2D06A6E32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeMonkeyBlazor.Apis", "CodeMonkeyBlazor.Apis\CodeMonkeyBlazor.Apis.csproj", "{BB98C3B6-0ACA-4F68-B366-9EE2D06A6E32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeMonkeyBlazor.SingleSignOn", "CodeMonkeyBlazor.SingleSignOn\CodeMonkeyBlazor.SingleSignOn.csproj", "{B7D1292D-3655-4EBC-B0C4-1E323CDB6776}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeMonkeyBlazor.SingleSignOn", "CodeMonkeyBlazor.SingleSignOn\CodeMonkeyBlazor.SingleSignOn.csproj", "{B7D1292D-3655-4EBC-B0C4-1E323CDB6776}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

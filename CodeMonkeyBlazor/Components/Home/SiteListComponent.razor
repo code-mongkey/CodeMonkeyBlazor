@@ -1,0 +1,30 @@
+﻿<ul>
+    @foreach (var site in sites)
+    {
+        <li><a href="@site.Url" target="_blank">@site.Title (@site.Description)</a></li>
+    }
+</ul>
+
+@code {
+
+    private List<Site> sites;
+
+    public List<Site> Sites
+    {
+        get { return sites; }
+        set { sites = value; }
+    }
+
+
+    protected override void OnInitialized()
+    {
+        sites = new List<Site>()
+    {
+            new Site{Id = 1, Title = "네이버", Url="https://www.naver.com", Description="생활지식 검색"},
+            new Site{Id = 2, Title = "구글", Url="https://www.google.com", Description="프로그래밍 검색"},
+            new Site{Id = 3, Title = "코드몽키", Url="https://haeng.synology.me:3000", Description="개인자료검색"},
+        };
+    }
+
+
+}
